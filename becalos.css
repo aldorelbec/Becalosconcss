@@ -1,12 +1,17 @@
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 10px 3px 30px 5px;
     box-sizing: border-box;
+    padding: 25px;
+    
+
 }
 
 h1{
     color: aqua;
+    text-align: center;
+    border-bottom: 3px solid black;
+
 }
 
 p {
@@ -14,16 +19,21 @@ p {
     color: blueviolet;
   
     width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
   }
   .prueba {color: rgb(230, 135, 151);
 width: 300;
-height: 300;}
+height: 300;
+font-family: arial;
+
+}
+
 
 
 .contenedor {
     background-color: rgb(184, 134, 232);
-    height: 500px;
+    height: 150px;
     padding: 30px;
 }
 .contenedor button {
@@ -37,8 +47,42 @@ height: 300;}
 }
 .contenedor button:hover {
 background-color: white;
-color: brown;
+color: yellow;
 padding: 12px;
 border: 2px solid color(srgb red rgb(23, 199, 23) blue);
+
+}
+.ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: orangered;
+    border: 3px solid black;
+}
+.ball:hover{
+background-color: aqua;
+}
+
+
+.notocar button {
+padding: 20px;
+border: 20px; 
+color: blue;
+background-color:white;
+border-radius: 15px;
+border: 3px solid black;
+}
+
+.notocar button:hover{
+background-color: red;
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 800%;
+height: 800px;
+width: 8000;
+box-sizing: border-box;
+transition-duration: 1000ms;
+padding-bottom: 1000px;
+
 
 }
